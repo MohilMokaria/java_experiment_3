@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>Problem1</servlet-name>
+        <servlet-class>Problem1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Problem2</servlet-name>
+        <servlet-class>Problem2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Problem3</servlet-name>
+        <servlet-class>Problem3</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Problem4</servlet-name>
+        <servlet-class>Problem4</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Problem5</servlet-name>
+        <servlet-class>Problem5</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Problem1</servlet-name>
+        <url-pattern>/Problem1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Problem2</servlet-name>
+        <url-pattern>/Problem2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Problem3</servlet-name>
+        <url-pattern>/Problem3</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Problem4</servlet-name>
+        <url-pattern>/Problem4</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Problem5</servlet-name>
+        <url-pattern>/Problem5</url-pattern>
+    </servlet-mapping>
+</web-app>
